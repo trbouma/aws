@@ -41,6 +41,6 @@ app.use(function(req, res) {
   res.status(404).render("404");
 });
 
-http.createServer(app).listen(3000, function() {
+http.createServer(app).listen(8080, function() {
   console.log("Guestbook app started.");
 });
